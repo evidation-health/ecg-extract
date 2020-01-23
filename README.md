@@ -9,7 +9,7 @@ Newer Apple watches include 'ECG' functionality, however there is currently no p
 
 This notebook attempts to recreate the ECG data using the exported PDF of the ECG report.
 
-1. PDF was converted to png using preview.
+1. PDF was converted to png using preview. (File -> Export -> Format=PNG Resolution=150 pixel/inch)
 2. ECG sections of the report are extracted and stitched together.
 3. Waveform is pulled out using argmin
 4. Analysis of ECG using heartpy
